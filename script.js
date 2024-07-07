@@ -63,7 +63,9 @@ function formatted(date = new Date()) {
 function short(num) {
     return num.toString().padStart(2, "0");
 }
-
+document.querySelector('#button').addEventListener('click', ()=>{
+    getDOB()
+})
 // Calling current date function
 // to set default date value
 currentDate();
